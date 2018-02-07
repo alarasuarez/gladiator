@@ -1,2 +1,48 @@
 @import "uikit.min";
 @import "mediaplayer.min";
+
+
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Righteous');
+
+// Headline
+
+* {
+  background-color: grey;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Righteous', cursive;
+}
+
+.uk-width-1-1 {
+  background: #990D0D;
+  
+  margin: 5px;
+  width: 50%;
+}
+
+
+.char1 {
+  letter-spacing: 4px;
+}
+
+// Body Font
+// score: 0, 0, 0, 2
+body h1, article p {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: snow;
+}
+
+a, a:visited {
+  color: white;
+}
+
+img {
+  width:15%;
+}
+
+li {
+  list-style-type: none;
+  color: #990D0D;
+}
