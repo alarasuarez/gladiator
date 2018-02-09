@@ -6,13 +6,12 @@
 
 // Headline
 
-* {
-  background-color: grey;
-}
 
-h1 {
+
+.trailer {
   text-transform: uppercase;
   font-family: 'Righteous', cursive;
+  background: #990D0D;
 }
 
 .uk-width-1-1 {
@@ -23,26 +22,32 @@ h1 {
 }
 
 
-.char1 {
-  letter-spacing: 4px;
-}
+// .char1 {
+//   letter-spacing: 4px;
+// }
 
 // Body Font
 // score: 0, 0, 0, 2
 body h1, article p {
   font-family: 'Quattrocento Sans', sans-serif;
   color: snow;
+  background: #990D0D;
+  padding: 5px;
 }
 
 a, a:visited {
-  color: white;
+  color: black;
 }
 
 img {
   width:15%;
 }
 
+ul {
+  background: #990D0D;
+}
+
 li {
   list-style-type: none;
-  color: #990D0D;
+  color: snow;
 }
